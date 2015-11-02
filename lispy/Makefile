@@ -1,5 +1,5 @@
 all:
-	cc -std=c99 -Wall evaluation.c mpc.c -ledit -lm -o eval
+	cc -std=c99 -Wall lispy.c mpc.c -ledit -lm -o lispy
 
 deps:
 	sudo apt-get install libedit-dev
